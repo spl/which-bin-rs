@@ -1,0 +1,14 @@
+[package]
+name = "which-bin-rs"
+version = "0.1.0"
+authors = ["Sean Leather <sean.leather@gmail.com>"]
+edition = "2018"
+description = "A very simple binary for which::which"
+repository = "https://github.com/spl/which-bin-rs"
+readme = "README.md"
+license = "Unlicense"
+
+exclude = [".gitattributes", ".gitignore"]
+
+[dependencies]
+which = "2.0"
